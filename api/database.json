@@ -1,0 +1,65 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Dell ThinkPad",
+            "year": 2015
+        },
+        {
+            "id": 3,
+            "model": "Lenovo ToughBook",
+            "year": 2019
+        },
+        {
+            "id": 4,
+            "model": "Chrome Book",
+            "year": 2013
+        },  {
+            "id": 5,
+            "model": "Macbook Air",
+            "year": 2023
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1,
+            "birthdate": "03/13/1923"
+        },
+        {
+            "id": 2,
+            "firstName": "John",
+            "lastName": "Roberts",
+            "computerId": 2,
+            "birthdate": "07/13/1978"
+        },
+        {
+            "id": 3,
+            "firstName": "Big",
+            "lastName": "Wolf",
+            "computerId": 3,
+            "birthdate": "09/13/1956"
+        },
+        {
+            "id": 4,
+            "firstName": "Mano",
+            "lastName": "Mansietta",
+            "computerId": 4,
+            "birthdate": "02/23/1970"
+        },
+        {
+            "id": 5,
+            "firstName": "Otto",
+            "lastName": "Lancaster",
+            "computerId": 5,
+            "birthdate": "1/4/1979"
+        }
+    ]
+}
