@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.outer-container {
+    width: 800px;
+    margin: auto;
+}
+.employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee__name {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.employee__department,
+.employee__location, 
+.employee__computer {
+    margin: 5px;
+}

@@ -12,7 +12,12 @@ import {employee} from "./employeeList.js"
 */
 const mainContainer = document.querySelector("#container")
 const render =() => {
-    fetchData("computers").then(() =>
+    
+    fetchData("departments").then(
+    fetchData("locations")).then(() =>
+    fetchData("employeeCustomers")).then(() =>
+    fetchData("customers")).then(() =>
+    fetchData("computers")).then(() =>
     fetchData("employees")).then(()=>
     {
             mainContainer.innerHTML = employee()

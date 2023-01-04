@@ -2,7 +2,7 @@
 const applicationState = {} 
 const mainContainer = document.querySelector("#container")
 
-const API = "http://localhost:8088"
+const API = "http://localhost:8089"
 
 export const fetchData = (data) => {
     return fetch(`${API}/${data}`)
