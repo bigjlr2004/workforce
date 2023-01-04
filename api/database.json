@@ -126,7 +126,7 @@
         "name": "Mistle Toe Distribution"
     }
 ],
-"employeeCustomers": [
+"customerEmployees": [
     
     { "id": 1, "customerId": 1,"employeeId": 4},
     { "id": 2, "customerId": 2,"employeeId": 3},
